@@ -1,0 +1,20 @@
+
+@charset "UTF-8";
+
+@media only screen and (max-device-width: 480px) {
+   
+
+        }
+
+
+
+body {
+	background-image: linear-gradient(to top, #BBD2C5, #536976);
+}
+
+
+.carousel-item img {
+	height: 900px;
+	
+	border-radius: 50%;
+}

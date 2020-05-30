@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 7
+   Case Problem 3
+
+   WidgetMage Form Styles
+   Author: Lonnie Friday    
+   Date:  3/30/2020 
+
+   Filename: wm_forms.css
+
+*/
+
+/* Field Set Styles */
+
+fieldset {
+    border: none;
+    width: 60%;
+    margin: 2px 0px;
+}
+
+legend {
+    background-color: rgb(232,232,232);
+    width: 100%; 
+    margin: 2px 0px;
+}
+
+
+/* DIV Styles */
+
+div.slider {
+    float: left;
+    width: 60%;
+    margin: 2px 0px;
+}
+
+
+
+/* Control Styles */
+
+label {
+    float: left;
+    clear: left;
+    display: block;
+    width: 40%;
+    margin: 2px 0px;
+}
+
+input, select {
+    margin: 2px 0px;
+}
+
+.slider input {
+    width: 60%;
+}
+
+select {
+    display: block;
+    float: left;
+    width: 120px;
+}
+
+#color {
+    display: block;
+    float: left;
+    width: 75px;
+}
+
+input[type='color'] {
+    display: block;
+    float: left;
+    width: 75px;
+}
+
+textarea {
+    font-size: 1.5em;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+
+/* Placeholder Styles */
+
+textarea::-moz-placeholder {
+    background: rgb(255,255,191);
+    color: rgb(255,151,151);
+    font-size: 1.5em;
+}
+
+textarea::-ms-input-placeholder {
+    background: rgb(255,255,191);
+    color: rgb(255,151,151);
+    font-size: 1.5em;
+}
+
+textarea::-webkit-input-placeholder {
+    background: rgb(255,255,191);
+    color: rgb(255,151,151);
+    font-size: 1.5em;
+}
+
+
+
+   

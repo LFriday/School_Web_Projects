@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+@media only screen and (max-device-width: 480px) {
+   
+
+        }
+
+
+/*body*/
+
+.nav li {
+	font-size: 20px;
+	
+}
+
+#ct{
+	color: white;
+}
+
+body {
+background-image: url("coffee-bar.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+opacity: 0.9;
+/*background: rgb(0,24,36);
+background: radial-gradient(circle, rgba(0,24,36,1) 0%, rgba(95,98,102,0.9192051820728291) 64%, rgba(6,32,60,1) 100%);*/
+}
+
+/*Title*/
+
+#cafe {
+
+  position: absolute;
+  bottom: 35%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-family: 'Fredericka the Great',sans serif;
+  font-size: 5rem;
+  background: -webkit-linear-gradient(orange,black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -ms-transform: skewY(20deg); /* IE 9 */
+  transform: skewY(20deg);
+}
+  
+}
+
+/*Greek Image*/
+
+#greek {
+  display: block;
+  margin-left: 40px;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(thegreek.png) 5 round;
+}
+
+/*nav*/
+
+.navbar {
+	text-align: center;
+	float: left;
+	border-style: border-break: close;
+	border-color: solid transparent;
+	margin-left: 100px;
+	border-right-width: 600px;
+	border-left-width: 600px;
+
+}	
+
+
+
+li {
+	text-align: center;
+	list-style-type: none;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+li a {
+  display: inherit;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 200px;
+  text-decoration: none;
+  font-family: 'Fredericka the Great',sans serif;
+  background: -webkit-linear-gradient(orange,white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+/*Pastry Image*/
+
+#pastry {
+	float: right;
+	border-radius: 150px;
+	height: 200px;
+	width: auto;
+	margin-right: 500px;
+	margin-top: 30px;
+	border-style: double;
+	border-color: gray;
+	}
+
+
+/*Side-Bar Image*/
+
+#bar {
+	float: left;
+	border-radius: 150px;
+	height: 200px;
+	width: auto;
+	margin-left: 500px;
+	margin-top: 300px;
+	border-style: double;
+	border-color: gray;
+}
+
+/* Middle Div*/
+
+.middle {
+
+	display: block;
+	margin-top: 600px;
+	border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.middle:hover
+{
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#coffee {
+	height: 200px;
+	margin-bottom: 200px;
+	border-style: inset;
+	border-color: gray;
+}
+
+#latt {
+	height: 200px;
+	margin-left: 300px;
+	border-style: inset;
+	border-color: gray;
+}
+
+#cake {
+	height: 200px;
+	margin-top: 200px;
+	border-style: inset;
+	border-color: gray;
+}
+
+/*Body Paragraph*/
+
+#para{
+	margin-bottom: 800px;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	background: -webkit-linear-gradient(white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	
+}
+
+
+/* Aside*/
+
+aside {
+	width: 20%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+    
+   
+
+}
+
+aside p {
+	font-size: .5rem;
+    margin: .5rem;
+    font-family: 'Fredericka the Great',sans serif;
+    background: -webkit-linear-gradient(orange,black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+
+
+/*Footer*/	
+footer {
+
+	margin-top: 20px;
+	text-align: center;
+}
+
+footer h1 {font-family: 'Fredericka the Great',sans serif;
+background: -webkit-linear-gradient(gold, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-size: 15px;
+	padding-top: 1px;
+	
+
+	
+}
+footer p {
+	font-family: 'Fredericka the Great',sans serif;
+	background: -webkit-linear-gradient(gold, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-size: 10px;
+	padding-top: 3px;
+	}
+	
+ #copyright {
+ 	margin-bottom: 10px;
+ }
